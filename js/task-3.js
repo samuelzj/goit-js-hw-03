@@ -1,8 +1,8 @@
 function filterArray(numbers, value) {
     let higherNumbers = [];
-    for (x of numbers) {
-        if (x > value) {
-            higherNumbers.push(x);
+    for (figure of numbers) {
+        if (figure > value) {
+            higherNumbers.push(figure);
         }
     }
     return higherNumbers
